@@ -53,6 +53,6 @@ public class Serial
 	
 		long fim = System.currentTimeMillis() - star;
 		
-		System.out.println("Demorou: " + fim/1000 + " segundos");
+		System.out.println("Demorou: " + fim + " segundos");
 	}
 }
