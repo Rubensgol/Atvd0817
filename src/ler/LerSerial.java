@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class LerSerial
 {
-
 	public static void main(String[] args) 
 	{
 		long star = System.currentTimeMillis();
