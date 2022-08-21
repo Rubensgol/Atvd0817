@@ -1,10 +1,10 @@
-package ler;
+package nomes;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class LerSerial
+public class Serial
 {
 	public static void main(String[] args) 
 	{
@@ -21,7 +21,7 @@ public class LerSerial
 			{
 				int arquivo = i;
 				
-				BufferedReader ler = new BufferedReader(new FileReader("nomes/nomescompletos-0" + arquivo +".txt"));
+				BufferedReader ler = new BufferedReader(new FileReader("files/nomes/nomescompletos-0" + arquivo +".txt"));
 				
 				String nomeArquivo = "";
 				

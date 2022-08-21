@@ -17,11 +17,11 @@ public class Serial
 			{
 				int arquivo = i;
 				
-				BufferedReader ler = new BufferedReader(new FileReader("arquivosDNA/dna-" + arquivo +".txt"));
+				BufferedReader ler = new BufferedReader(new FileReader("files/dna/dna-" + arquivo +".txt"));
 				
 				String dna = ler.readLine();
 				
-				FileWriter arq = new FileWriter("arquivosDNA/fitacomplementarDna-"+ arquivo +".txt");
+				FileWriter arq = new FileWriter("files/dna/fitacomplementarDna-"+ arquivo +".txt");
 				PrintWriter gravarArq = new PrintWriter(arq);
 				
 				while (dna != null)
